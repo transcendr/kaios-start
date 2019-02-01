@@ -2,13 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
-  plugins: [{
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: '67jsh0m93kts',
-        accessToken: 'd967421986af9d85c4c0570cef07b930ac9d4ebfd83643676f929fe55c36e6e6',
-      },
-    },
+  plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

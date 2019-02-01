@@ -20,6 +20,6 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false
   },
-  "include": ["@types/**/*.ts", "src-dev/**/*.ts", "src-dev/**/*.tsx"],
+  "include": ["@types/**/*.ts", "src-dev/**/*"],
   "exclude": []
 }

@@ -17,7 +17,7 @@
   "keywords": [],
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch src-dev/ --exec \"npm run compile\" --verbose -e ts",
+    "dev": "nodemon --watch src-dev/ --exec \"npm run compile\" --verbose -e ts,tsx",
     "compile": "tsc && echo 'Running...'",
     "start": "node serve-static.js",
     "serve": "serve -s public/",
