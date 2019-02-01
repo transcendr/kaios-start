@@ -1,0 +1,1 @@
+{"version":3,"file":"debug.js","sourceRoot":"","sources":["../src-dev/debug.ts"],"names":[],"mappings":";AAAA,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA","sourcesContent":["console.log('debug')\r\n"]}

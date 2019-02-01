@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src-dev/pages/index.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAA;AAE9B,MAAM,SAAS,GAAG,GAAG,EAAE,CAAC,sDAA6B,CAAA;AAErD,eAAe,SAAS,CAAA","sourcesContent":["import * as React from 'react'\r\n\r\nconst IndexPage = () => <div>Index Page, Sweet!</div>\r\n\r\nexport default IndexPage\r\n"]}
