@@ -17,6 +17,8 @@
   "keywords": [],
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon --watch src-dev/ --exec \"npm run compile\" --verbose -e ts",
+    "compile": "tsc && echo 'Running...'",
     "start": "node serve-static.js",
     "serve": "serve -s public/",
     "build": "gatsby build",
@@ -26,11 +28,13 @@
     "heroku-postbuild": "gatsby build"
   },
   "devDependencies": {
+    "@types/react": "^16.7.22",
     "express": "^4.16.3",
     "express-http-to-https": "^1.1.4",
     "prettier": "^1.14.2",
     "serve": "^10.0.2",
-    "serve-static": "^1.13.2"
+    "serve-static": "^1.13.2",
+    "typescript": "^3.3.1"
   },
   "repository": {
     "type": "git",
